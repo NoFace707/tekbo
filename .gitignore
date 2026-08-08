@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.venv/
+
+# Node
+node_modules/
+dist/
+
+# Env files
+.env
+*.env.local
+
+# Local uploads / generated media
+backend/src/media/
+
+# VS Code
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+
+firebase-service-account.json
